@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<html>
+    <head>
+          <title>Day 2</title>
+        <style>
+            marquee{
+                color:rgb(4, 19, 46);
+                font-size:35px;
+               /* font-family:sans-serif;*/
+               /* font-style:italic;*/
+            }
+            label{
+                color:hsl(hue, saturation, lightness);
+                font-style:normal;
+                font-family:fantasy;
+            }
+            img{
+                width:200px;
+                margin:50px;
+                border:indianred;
+                border-style:double;
+                border-width:10px;
+                border-radius:0%;
+            }
+            body{
+                background-image: linear-gradient(skyblue,pink );
+            }
+            #pad{
+                width:40%;
+                background-color: sienna;
+                padding:40px;
+            }
+            
+        </style>
+    </head>  
+    <body>
+        <marquee direction="right">Amisha Patil</marquee>
+        <form action="mailto: mm.dudhare@gmail.com"method="POST">
+
+         Name: <br>
+         <input type="text" name="name"  placeholder="enter your name" required>
+         <br><br>
+         Gender:<br>
+         <input type="radio" name="gender"  value="male" id="gender-m">
+         <label for="gender-m">Male</label>
+         <input type="radio" name="gender"  value="female" id="gender-f">
+         <label for="gender-f">Female</label>
+         <br><br>
+         skills:
+         <input type="checkbox" name="skills" id="skill1">
+         <label for="skill1">HTML</label>
+         <input type="checkbox" name="skills" id="skill2">
+         <label for="skill2">CSS</label>
+        <input type="checkbox" name="skills" id="skill3">
+         <label for="skill3">None Of This</label>
+          <br><br>
+         <input type="submit" name="submit"  value="submit">
+         <input type="reset" value="reset">
+    </form> 
+    <br>
+    <br>
+Lists of Students:
+<select name="List of students" id="">
+    <option>--students name--</option>
+
+        <option>Samidha</option>
+        <option>Tanay</option>
+        <option> Amisha</option>
+        <option>Akshata</option>
+        <option>None of these</option>
+
+    </select>
+    <br>
+    <h3>This is for you</h3>
+    <img src="https://res.cloudinary.com/bloomnation/c_pad,d_vendor:global:catalog:product:image.png,f_auto,fl_preserve_transparency,q_auto/v1549602980/vendor/3444/catalog/product/2/0/20180221061539_file_5a8db74b2d0f6.jpg">
+    <div id="pad">
+        <p style="background-color:midnightblue;">Apple</p>
+    </div>
+    
+        </body>
+        </html>
